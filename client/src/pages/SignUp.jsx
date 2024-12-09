@@ -43,7 +43,6 @@ const SignUp = () => {
     <section className="md:flex">
       <article className="md:w-1/2 flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm text-center">
-          <Logo />
           <h2 className="mt-5 text-2xl/9 font-bold tracking-tight text-gray-900">
             Create an account
           </h2>
@@ -150,7 +149,7 @@ const SignUp = () => {
       </article>
 
       <article className="md:w-1/2 h-screen hidden md:flex flex-col items-center justify-center">
-        <img src={SavingImage} alt="Savings" />
+        <img src={SavingImage} alt="Savings" className='animate-updown' />
       </article>
     </section>
   );
