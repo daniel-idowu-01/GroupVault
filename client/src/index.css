@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@539&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.edu-au-vic-wa-nt-arrows-base {
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .montserrat-base {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
