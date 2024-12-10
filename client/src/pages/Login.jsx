@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import SavingImage from "../../public/images/savings.svg";
 import Google from "../../public/images/google.svg";
-import Logo from "../components/Logo";
 
 const Login = () => {
   const [formInput, setFormInput] = useState({});
